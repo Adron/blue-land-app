@@ -18,3 +18,7 @@ Getting the docker image build and running.
 Then run the container.
 
 `docker run --publish 8080:8080 --name test --rm blue-land-app`
+
+***kubectl actions***
+
+`kubectl run --image=adron/blue-land-app --port=8080 --env="DOMAIN=cluster" deployment "blue-land-app" created`
