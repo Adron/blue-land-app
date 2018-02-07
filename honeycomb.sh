@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for i in $(seq 1 5000)
+for i in $(seq 1 500)
 do
   curl --location --silent --write-out '{
     "time_total_seconds": %{time_total},
