@@ -14,3 +14,11 @@
 .glide/
 
 .idea
+.DS_Store
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Module directory
+.terraform/
